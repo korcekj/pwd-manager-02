@@ -8,7 +8,7 @@ pwdValSchema
   // Minimum length 8
   .is()
   .min(8)
-  // Maximum length 100
+  // Maximum length 64
   .is()
   .max(64)
   // Must have uppercase letter
